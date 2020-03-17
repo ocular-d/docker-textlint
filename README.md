@@ -1,2 +1,3 @@
-# docker-textlint
-Textlint as Container (Docker)
+Based on: https://github.com/shimizukawa/docker-textlint
+
+docker run -it -v ${PWD}/test:/data -w /data tl:latest quickstart.md
