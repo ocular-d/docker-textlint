@@ -1,5 +1,8 @@
 FROM node:12.16.1-alpine3.11
 
+LABEL maintainer "Sven <sven@ocular-d.tech>" \
+    org.label-schema.vendor = "ocular-d"
+
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 ENV PATH=$PATH:/home/node/.npm-global/bin
 
